@@ -1,0 +1,44 @@
+.container{
+    width: 1180px;
+    max-width: 900px;
+    margin: 30px auto;
+    height: 700px;
+    padding: 5px;
+    border: 2px solid black;
+    background: linear-gradient(rgb(100, 0, 0), red, rgb(194, 129, 129));
+    box-shadow: 0 5px 0 rgb(184, 182, 182);
+    box-sizing: border-box;
+
+}
+.container h1 {
+
+    color: white;
+    font-size: 50px; 
+    text-align: center;
+    text-shadow: 0px 5px 5px rgb(85, 85, 85);
+}
+
+.container form {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.container form select option {
+    color: black;
+    font: bold;
+    font-size: 40px;
+}
+.container form input, .container form select  {
+    width: 80%;
+    height: 50px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    margin: 0 auto 2%;
+  }
+
+  .container form button {
+    margin: 0 auto;
+    width: 80%;
+  }
+
