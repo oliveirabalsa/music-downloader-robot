@@ -1,3 +1,7 @@
+## What is it? 
+In order of studies i developed that application for trainning the manipulation of youtuba api, using node, express and react
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -10,10 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run dev`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Into folder "Server" use that command to execute the server application
 
 ### `npm run build`
 
