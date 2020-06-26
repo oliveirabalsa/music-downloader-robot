@@ -6,6 +6,7 @@ export default function Home() {
   const [userInput, setUserInput] = useState('');
   const [type, setType] = useState('MP3');
   const serverURL = 'http://localhost:4000';
+  const yourAPIKey = ''	// use this or import an env file to fill variable
 
 
   function redirectMp3(query) {
@@ -21,7 +22,7 @@ function redirectMp4(query) {
     try {
       console.log(userInput);
       const response = await axios.get(
-        `https://www.googleapis.com/youtube/v3/search?part=id&q=${userInput}&type=video&key=AIzaSyB_mcByvLmKA5EUfG3w62g2E2eUSSBGHZA`
+        `https://www.googleapis.com/youtube/v3/search?part=id&q=${userInput}&type=video&key=${yourAPIKey}`
       );
       const url = `https://www.youtube.com/watch?v=${response.data.items[0].id.videoId}`
       
