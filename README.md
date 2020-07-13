@@ -1,5 +1,5 @@
 ## What is it? 
-In order of studies i developed that application for trainning the manipulation of youtuba api, using node, express and react
+In order of studies i developed that application for trainning the manipulation of youtube api, using node, express and react
 
 
 ## Available Scripts
